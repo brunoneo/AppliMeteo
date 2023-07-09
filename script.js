@@ -10,7 +10,7 @@ function appelAPI(city) {
             document.querySelector('#humidité').innerHTML =`Humidité ${data.main.humidity} %`;
             ville.textContent = `METEO DE ${data.name}`;
     
-            setTimeout(appelJson,36000000);
+            setTimeout(appelJson,3600000);
 
         }));}
 
